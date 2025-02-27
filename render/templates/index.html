@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Clean Text Sanitizer</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 class="logo">Text Sanitizer</h1>
+    </div>
+
+    <div class="container">
+        <div class="head">
+            <button onclick="copyToClipboard()">Copy</button>
+            <button onclick="clearText()">Clear</button>
+            <button onclick="sanitizeText()">Sanitize</button>
+        </div>
+        <textarea id="inputText" rows="12" placeholder="Enter text here..."></textarea><br>
+    </div>
+    <div id="snackbar">Text copied to clipboard</div>
+    <script src="../static/script.js"></script>
+</body>
+
+</html>
